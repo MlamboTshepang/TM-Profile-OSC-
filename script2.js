@@ -1,15 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const progressBars = document.querySelectorAll('.progress-bar');
 
-    // Use a slight delay for a better visual effect
-    setTimeout(() => {
-        progressBars.forEach(bar => {
-            const width = bar.getAttribute('data-width');
-            bar.style.width = width;
-        });
-    }, 200); // 200ms delay
-
-
     // 1. Register only the ScrollTrigger plugin
     gsap.registerPlugin(ScrollTrigger);
 
@@ -121,4 +112,11 @@ document.addEventListener("DOMContentLoaded", () => {
     parallaxScrollBySpeed(".hero-reveal__parallax-kettle", 3);
     parallaxScrollBySpeed(".hero-reveal__parallax-card", 5);
 
+    // Use a slight delay for a better visual effect
+    setTimeout(() => {
+        progressBars.forEach(bar => {
+            const width = bar.getAttribute('data-width');
+            bar.style.width = width;
+        });
+    }, 600); // 600ms delay
 });
