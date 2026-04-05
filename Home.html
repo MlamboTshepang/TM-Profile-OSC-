@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Teboho Moephudi | Professional Profile</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-primary-fixed": "#56001f",
+                        "inverse-primary": "#fd5d86",
+                        "primary-fixed": "#ffa9b8",
+                        "surface-container-highest": "#ece0d9",
+                        "on-primary-fixed-variant": "#8d0038",
+                        "surface-variant": "#ece0d9",
+                        "error": "#ac3149",
+                        "tertiary-dim": "#704c00",
+                        "outline": "#827973",
+                        "tertiary-fixed": "#feb300",
+                        "primary": "#b32351",
+                        "on-secondary-fixed": "#4c1f9f",
+                        "on-tertiary": "#fff8f2",
+                        "surface": "#fff8f5",
+                        "error-container": "#f76a80",
+                        "secondary": "#6d46c1",
+                        "on-secondary": "#fdf7ff",
+                        "secondary-fixed": "#eaddff",
+                        "on-surface": "#38312c",
+                        "surface-dim": "#e4d8cf",
+                        "primary-dim": "#a21345",
+                        "secondary-fixed-dim": "#ddccff",
+                        "on-tertiary-fixed-variant": "#5e4000",
+                        "tertiary": "#7f5700",
+                        "primary-container": "#ffa9b8",
+                        "on-tertiary-container": "#523700",
+                        "on-background": "#38312c",
+                        "background": "#fff8f5",
+                        "surface-tint": "#b32351",
+                        "on-primary-container": "#7d0031",
+                        "on-secondary-fixed-variant": "#6942bd",
+                        "inverse-on-surface": "#a29c97",
+                        "on-primary": "#fff7f7",
+                        "surface-container-low": "#fbf2ec",
+                        "surface-bright": "#fff8f5",
+                        "primary-fixed-dim": "#ff94a8",
+                        "tertiary-fixed-dim": "#eda600",
+                        "tertiary-container": "#feb300",
+                        "secondary-dim": "#6138b4",
+                        "secondary-container": "#eaddff",
+                        "on-surface-variant": "#655e58",
+                        "on-error": "#fff7f7",
+                        "surface-container": "#f6ece6",
+                        "on-tertiary-fixed": "#382400",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-high": "#f1e6df",
+                        "inverse-surface": "#110e0b",
+                        "outline-variant": "#bab0a9",
+                        "error-dim": "#770326",
+                        "on-error-container": "#68001f",
+                        "on-secondary-container": "#5f36b2"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #b32351 0%, #ffa9b8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .sunset-gradient {
+            background: linear-gradient(180deg, #fff8f5 0%, #fbf2ec 100%);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-[#fff8f5]/70 backdrop-blur-xl shadow-[0_12px_40px_rgba(56,49,44,0.06)]">
+    <div class="flex justify-between items-center w-full px-8 py-6 max-w-screen-2xl mx-auto">
+        <div class="text-xl font-black font-['Manrope'] tracking-tighter text-[#38312c]">Teboho Moephudi</div>
+        <div class="hidden md:flex items-center gap-10">
+            <a class="text-[#38312c]/70 font-medium font-['Manrope'] text-sm uppercase tracking-tight hover:text-[#f2709c] transition-all duration-300 ease-in-out active:scale-95 transition-transform" href="#about">About</a>
+            <a class="text-[#38312c]/70 font-medium font-['Manrope'] text-sm uppercase tracking-tight hover:text-[#f2709c] transition-all duration-300 ease-in-out active:scale-95 transition-transform" href="#portfolio">Portfolio</a>
+            <a class="text-[#38312c]/70 font-medium font-['Manrope'] text-sm uppercase tracking-tight hover:text-[#f2709c] transition-all duration-300 ease-in-out active:scale-95 transition-transform" href="#experience">Experience</a>
+            <a class="text-[#38312c]/70 font-medium font-['Manrope'] text-sm uppercase tracking-tight hover:text-[#f2709c] transition-all duration-300 ease-in-out active:scale-95 transition-transform" href="#contact">Contact</a>
+        </div>
+        <button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 py-3 rounded-full font-headline font-bold text-sm tracking-tight active:scale-95 transition-transform shadow-lg shadow-primary/20">
+            Hire Me
+        </button>
+    </div>
+</nav>
+<main class="pt-24">
+    <!-- Hero Section -->
+    <section class="relative min-h-[921px] flex items-center overflow-hidden sunset-gradient" id="home">
+        <div class="max-w-7xl mx-auto px-8 w-full grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+            <div class="md:col-span-7 z-10">
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-widest mb-6">
+                    <span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+                    Available for Projects
+                </div>
+                <h1 class="font-headline font-extrabold text-6xl md:text-8xl leading-[0.95] tracking-tighter text-on-surface mb-8">
+                    Consultant &amp; <br/><span class="text-gradient">Digital Strategist</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-on-surface-variant font-light leading-relaxed max-w-xl mb-12">
+                    Elevating professional narratives through intentional design and data-driven digital exhibition.
+                </p>
+                <div class="flex flex-wrap gap-6">
+                    <a class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-10 py-5 rounded-full font-headline font-extrabold text-lg tracking-tight active:scale-95 transition-all shadow-xl shadow-primary/25 hover:shadow-primary/40" href="#contact">
+                        Work with Me
+                    </a>
+                    <a class="bg-surface-container-highest text-on-surface px-10 py-5 rounded-full font-headline font-extrabold text-lg tracking-tight active:scale-95 transition-all flex items-center gap-2" href="#portfolio">
+                        View Portfolio
+                        <span class="material-symbols-outlined">arrow_outward</span>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-5 relative">
+                <div class="relative w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl z-10 transform md:rotate-2">
+                    <!--                    IMAGE TO BE DETERMINED-->
+                    <img alt="Professional portrait of the consultant" class="w-full h-full object-cover" src=""/>
+                    <div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
+                </div>
+                <!-- Decorative Elements -->
+                <div class="absolute -bottom-10 -left-10 w-64 h-64 bg-tertiary-container/30 blur-3xl rounded-full -z-0"></div>
+                <div class="absolute -top-10 -right-10 w-48 h-48 bg-primary-container/20 blur-3xl rounded-full -z-0"></div>
+            </div>
+        </div>
+    </section>
+    <!-- My Story Section -->
+    <section class="py-32 bg-surface-container-low" id="about">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-16">
+                <div class="md:col-span-4">
+                    <h2 class="font-headline font-extrabold text-4xl text-on-surface leading-tight sticky top-32">
+                        The Philosophy <br/>of <span class="text-tertiary">Intentionality.</span>
+                    </h2>
+                </div>
+                <div class="md:col-span-8 space-y-8">
+                    <p class="font-body text-2xl md:text-3xl text-on-surface-variant leading-relaxed font-light">
+                        I believe that in a world of digital noise, the most powerful tool a brand possesses is its <span class="font-bold text-on-surface">Curated Story</span>. My approach blends analytical precision with editorial flair.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
+                        <div class="space-y-4">
+                            <h4 class="font-headline font-bold text-xl text-on-surface">Digital Exhibition</h4>
+                            <p class="text-on-surface-variant leading-relaxed">Treating your digital footprint as an art gallery. Every interaction is a touchpoint; every pixel is an intentional choice in your professional narrative.</p>
+                        </div>
+                        <div class="space-y-4">
+                            <h4 class="font-headline font-bold text-xl text-on-surface">Strategic Clarity</h4>
+                            <p class="text-on-surface-variant leading-relaxed">Cutting through the jargon to deliver measurable growth. We focus on the high-impact levers that transform observers into long-term partners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Key Services Bento Grid -->
+    <section class="py-32 bg-surface" id="services">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="mb-20 text-center">
+                <span class="text-primary font-bold tracking-widest uppercase text-sm mb-4 block">Expertise</span>
+                <h2 class="font-headline font-extrabold text-5xl text-on-surface tracking-tighter">Strategic Solutions</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="group bg-surface-container-low p-10 rounded-3xl hover:bg-surface-container-lowest transition-all duration-500 shadow-sm hover:shadow-xl hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-secondary-container rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-on-secondary-container" style="font-variation-settings: 'FILL' 1;">architecture</span>
+                    </div>
+                    <h3 class="font-headline font-bold text-2xl mb-4 text-on-surface">Brand Architecture</h3>
+                    <p class="text-on-surface-variant leading-relaxed mb-8">Building scalable foundations for brands that demand authority and long-term presence in competitive markets.</p>
+                    <div class="h-1 w-12 bg-primary group-hover:w-full transition-all duration-500"></div>
+                </div>
+                <!-- Service Card 2 -->
+                <div class="group bg-surface-container-low p-10 rounded-3xl hover:bg-surface-container-lowest transition-all duration-500 shadow-sm hover:shadow-xl hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-primary-container rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-on-primary-container" style="font-variation-settings: 'FILL' 1;">insights</span>
+                    </div>
+                    <h3 class="font-headline font-bold text-2xl mb-4 text-on-surface">Digital Strategy</h3>
+                    <p class="text-on-surface-variant leading-relaxed mb-8">Comprehensive roadmaps designed to optimize your digital ecosystem and maximize conversion across all channels.</p>
+                    <div class="h-1 w-12 bg-primary group-hover:w-full transition-all duration-500"></div>
+                </div>
+                <!-- Service Card 3 -->
+                <div class="group bg-surface-container-low p-10 rounded-3xl hover:bg-surface-container-lowest transition-all duration-500 shadow-sm hover:shadow-xl hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-tertiary-container rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-on-tertiary-container" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+                    </div>
+                    <h3 class="font-headline font-bold text-2xl mb-4 text-on-surface">Content Curation</h3>
+                    <p class="text-on-surface-variant leading-relaxed mb-8">High-end editorial direction and asset production that positions you as a thought leader in your specific industry.</p>
+                    <div class="h-1 w-12 bg-primary group-hover:w-full transition-all duration-500"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experience Timeline -->
+    <section class="py-32 bg-surface-container-low" id="experience">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-16">
+                <div class="md:col-span-4">
+                    <h2 class="font-headline font-extrabold text-5xl text-on-surface leading-[0.9] tracking-tighter">
+                        The Track <br/>Record.
+                    </h2>
+                    <p class="mt-8 text-on-surface-variant max-w-xs">A decade of transforming vision into digital reality for global stakeholders.</p>
+                </div>
+                <div class="md:col-span-8 space-y-12">
+                    <!-- Timeline Item 1 -->
+                    <div class="flex gap-8 group">
+                        <div class="flex-shrink-0 pt-2">
+                            <span class="font-headline font-black text-primary text-lg">2021 — PR</span>
+                        </div>
+                        <div class="pb-12 border-l border-outline-variant/30 pl-8 relative">
+                            <div class="absolute -left-[5px] top-4 w-2 h-2 rounded-full bg-primary ring-4 ring-surface-container-low"></div>
+                            <h4 class="font-headline font-extrabold text-2xl text-on-surface mb-2">Senior Digital Strategist</h4>
+                            <p class="text-tertiary font-bold mb-4 uppercase text-xs tracking-widest">Global Creative Agency</p>
+                            <p class="text-on-surface-variant leading-relaxed">Led digital transformation projects for Fortune 500 clients, achieving an average 40% increase in cross-platform engagement.</p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 2 -->
+                    <div class="flex gap-8 group">
+                        <div class="flex-shrink-0 pt-2">
+                            <span class="font-headline font-black text-primary text-lg">2018 — 21</span>
+                        </div>
+                        <div class="pb-12 border-l border-outline-variant/30 pl-8 relative">
+                            <div class="absolute -left-[5px] top-4 w-2 h-2 rounded-full bg-primary/40"></div>
+                            <h4 class="font-headline font-extrabold text-2xl text-on-surface mb-2">Creative Lead</h4>
+                            <p class="text-tertiary font-bold mb-4 uppercase text-xs tracking-widest">Horizon Tech Solutions</p>
+                            <p class="text-on-surface-variant leading-relaxed">Pioneered the 'Editorial UX' framework, resulting in three Webby Award nominations and a shift in company design culture.</p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 3 -->
+                    <div class="flex gap-8 group">
+                        <div class="flex-shrink-0 pt-2">
+                            <span class="font-headline font-black text-primary text-lg">2015 — 18</span>
+                        </div>
+                        <div class="border-l border-outline-variant/30 pl-8 relative">
+                            <div class="absolute -left-[5px] top-4 w-2 h-2 rounded-full bg-primary/40"></div>
+                            <h4 class="font-headline font-extrabold text-2xl text-on-surface mb-2">Brand Consultant</h4>
+                            <p class="text-tertiary font-bold mb-4 uppercase text-xs tracking-widest">Independent Studio</p>
+                            <p class="text-on-surface-variant leading-relaxed">Managed end-to-end rebranding for high-growth startups in the fintech and health-tech sectors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Get In Touch Section -->
+    <section class="py-32 bg-surface" id="contact">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="bg-surface-container-highest rounded-[3rem] overflow-hidden grid grid-cols-1 md:grid-cols-2">
+                <div class="p-16 flex flex-col justify-between">
+                    <div>
+                        <h2 class="font-headline font-extrabold text-5xl text-on-surface leading-tight tracking-tighter mb-6">
+                            Let's build your <br/><span class="text-gradient">legacy.</span>
+                        </h2>
+                        <p class="text-on-surface-variant text-lg mb-12">I'm currently accepting select high-impact projects for 2025. Send me a brief and let's start the conversation.</p>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4 text-on-surface">
+                            <span class="material-symbols-outlined text-primary">mail</span>
+                            <span class="font-medium">hello@digitalcurator.com</span>
+                        </div>
+                        <div class="flex items-center gap-4 text-on-surface">
+                            <span class="material-symbols-outlined text-primary">location_on</span>
+                            <span class="font-medium">London, UK / Remote</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-surface-container-low p-16">
+                    <form class="space-y-6">
+                        <div class="space-y-2">
+                            <label class="text-xs font-bold uppercase tracking-widest text-on-surface-variant">Full Name</label>
+                            <input class="w-full bg-surface-container-highest border-none rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary/30 transition-all outline-none text-on-surface" placeholder="Jane Doe" type="text"/>
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-xs font-bold uppercase tracking-widest text-on-surface-variant">Email Address</label>
+                            <input class="w-full bg-surface-container-highest border-none rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary/30 transition-all outline-none text-on-surface" placeholder="jane@example.com" type="email"/>
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-xs font-bold uppercase tracking-widest text-on-surface-variant">Message</label>
+                            <textarea class="w-full bg-surface-container-highest border-none rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary/30 transition-all outline-none text-on-surface" placeholder="Tell me about your project..." rows="4"></textarea>
+                        </div>
+                        <button class="w-full bg-primary text-on-primary font-headline font-extrabold py-5 rounded-xl hover:bg-primary-dim transition-colors active:scale-95 shadow-lg shadow-primary/20">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-16 px-8 mt-auto bg-[#fbf2ec] bg-gradient-to-t from-[#ece0d9] to-transparent">
+    <div class="flex flex-col md:flex-row justify-between items-center gap-8 max-w-7xl mx-auto">
+        <div class="font-['Manrope'] font-bold text-[#38312c]">Mlambo Curations</div>
+        <div class="flex gap-8">
+            <a class="text-[#38312c]/70 font-['Inter'] text-sm tracking-wide hover:text-[#b32351] transition-colors focus:ring-2 focus:ring-[#f2709c]" href="#">LinkedIn</a>
+            <a class="text-[#38312c]/70 font-['Inter'] text-sm tracking-wide hover:text-[#b32351] transition-colors focus:ring-2 focus:ring-[#f2709c]" href="#">Twitter</a>
+            <a class="text-[#38312c]/70 font-['Inter'] text-sm tracking-wide hover:text-[#b32351] transition-colors focus:ring-2 focus:ring-[#f2709c]" href="#">Instagram</a>
+            <a class="text-[#38312c]/70 font-['Inter'] text-sm tracking-wide hover:text-[#b32351] transition-colors focus:ring-2 focus:ring-[#f2709c]" href="#">Email</a>
+        </div>
+        <div class="text-[#38312c]/70 font-['Inter'] text-sm tracking-wide">
+            © 2026 Mlambo Curations. Crafted for Excellence.
+        </div>
+    </div>
+</footer>
+</body></html>
