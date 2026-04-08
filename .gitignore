@@ -6,7 +6,8 @@
 ._*
 
 # Custom folder icons
-Icon
+Icon
+
 
 # Volume root files
 .DocumentRevisions-V100
@@ -106,3 +107,6 @@ x86/
 # Virtual machine crash logs
 hs_err_pid*
 replay_pid*
+
+.claude
+.skills
